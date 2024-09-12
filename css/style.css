@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navvar part start  */
+#navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.navItem img {
+    height: 45px;
+}
+
+.nav-item a {
+    margin: 0 50px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.dropdown-menu li a {
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #06aebd;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-item a:hover {
+    color: #ed1c24;
+    font-weight: 500;
+}
+
+.nav_btn {
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: #000;
+    background: #ff9b00;
+    background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    ;
+
+}
+
+.nav_btn a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+/* navvar part end  */
+/* banner part start  */
+#bannerPart {
+    /* background: #06091A;    */
+    height: 765px;
+    background: red; 
+}
+
+.bannerTextPart {
+    margin-top: 130px;
+    margin-left: 45px;
+}
+
+.bannerTextPart h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-right: 50px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.bannerTextPart p {
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-right: 44px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.parimary_btn{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff; 
+    font-family: "Space Grotesk", sans-serif;
+    background: #ff9b00;
+    background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    padding: 30px 70px;
+    display: inline-block;
+    border-radius: 30px;
+
+}
+.parimary_btn a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.banne_img{
+    padding-top: 100px; 
+}
+.banne_img img{
+    height: 400px;
+}
+.banner_bage{ 
+    position: relative; 
+    padding-top: 100px;
+}
+.bage_one{
+    position: absolute;
+   padding: 40px 25px;
+   background: #ff9b00;
+   background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+   background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%); 
+  font-size: 30px;
+  font-weight: 700;   
+  transform: rotate(-3deg);   
+  font-family: "Space Grotesk", sans-serif; 
+  margin-left: 8px;
+}
+.bage_two{
+    position: absolute;
+   padding: 40px 25px;
+   background: #ff9b00;
+   background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+   background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%); 
+  font-size: 30px;
+  font-weight: 700;  
+  margin-left: 8px;
+  transform: rotate(3deg);  
+  font-family: "Space Grotesk", sans-serif; 
+}
+/* banner part end  */
+/* wab link part start  */
+#wab_link{
+    margin-top: 110px;
+}
+.wablink{
+    gap: 20px;
+}
+.wablink a i{
+   font-size: 45px; 
+   padding-top: 5px;
+}
+.wablink p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #18181B; 
+    padding-right: 285px;
+    font-family: "Space Grotesk", sans-serif; 
+    
+}
+.wablinks{
+    gap: 20px;
+}
+.wablinks a i{
+   font-size: 45px; 
+   padding-top: 5px; 
+   border-radius: 50%;
+   padding: 5px; 
+}
+.wablinks p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #18181B;  
+    font-family: "Space Grotesk", sans-serif; 
+    
+}
+.saves{
+    gap: 20px;
+    padding-left: 110px;
+    padding-top: 40px;
+}
+.saves a i{
+   font-size: 45px; 
+   padding-top: 5px;
+}
+.saves p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #18181B;   
+    font-family: "Space Grotesk", sans-serif; 
+    
+}
+/* wab link part end  */
+/* revew part start  */
+#revewPart{
+    margin-top: 140px;
+}
+/* revew part end  */
+/* banner part start  */
+/* banner part end  */
+/* banner part start  */
+/* banner part end  */
+/* banner part start  */
+/* banner part end  */
+/* banner part start  */
+/* banner part end  */
+/* banner part start  */
+/* banner part end  */
+/* banner part start  */
+/* banner part end  */
+/* banner part start  */
+/* banner part end  */
+/* banner part start  */
+/* banner part end  */
