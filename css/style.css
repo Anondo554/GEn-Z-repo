@@ -443,7 +443,7 @@ hr{
         font-family: "Space Grotesk", sans-serif;  
     } 
     .boder{
-        border-top: 2px solid rebeccapurple; 
+        border-top: 2px solid #FF9B00; 
     } 
     .boder p{
         font-size: 15px;
@@ -454,12 +454,65 @@ hr{
         margin-top: 30px;
         text-align: center;
     }
-/* footer part end  */
-/* banner part start  */
-/* banner part end  */
-/* banner part start  */
-/* banner part end  */
-/* banner part start  */
-/* banner part end  */
-/* banner part start  */
-/* banner part end  */
+   /* department part start  */
+    #departmentPart{
+        background: #000;
+        padding-top: 60px;
+    }
+    .flower{
+        width: 400px;
+        height: 80px;
+        background: #FBDD00;
+        margin-left: 50px;
+
+    }
+    .flower img{
+       width: 50px;
+       height: 50px;
+       margin-left: 10px;
+
+    }
+    .flower p{
+        font-size: 16px;
+        margin-top: 10px;
+        color: #FFFFFF;
+        font-family: "Space Grotesk", sans-serif;   
+        font-weight: 400;
+        padding-left: 15px;
+
+    }
+    .folwerText{
+        width: 200px;
+        height: 60px;
+        background: #FF9702;
+        margin-top: 40px;
+        margin-left: 100px; 
+       
+    } 
+        
+    .folwerText{
+        font-family: "Space Grotesk", sans-serif;   
+        font-weight: 400; 
+        font-size: 16px;
+        text-align: center;   
+    }
+    .folwerTwo{
+        width: 350px;
+        height: 100px;
+        background: #ED1C24;
+        margin-top: 40px; 
+       
+    }
+    .folwerTwo p{   
+        font-size: 16px; 
+        color: #FFFFFF;
+        font-family: "Space Grotesk", sans-serif;   
+        font-weight: 400;
+        padding-left: 15px;
+    }
+    .folwerTwo img{   
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+   /* department part end  */
