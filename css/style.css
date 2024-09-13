@@ -59,9 +59,8 @@
 /* navvar part end  */
 /* banner part start  */
 #bannerPart {
-    /* background: #06091A;    */
-    height: 765px;
-    background: red; 
+    background: #06091A;   
+    height: 765px; 
 }
 
 .bannerTextPart {
@@ -86,11 +85,11 @@
     font-family: "Space Grotesk", sans-serif;
 }
 
-.parimary_btn{
+.parimary_btn {
     margin-top: 25px;
     font-size: 16px;
     font-weight: 500;
-    color: #ffffff; 
+    color: #ffffff;
     font-family: "Space Grotesk", sans-serif;
     background: #ff9b00;
     background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
@@ -100,7 +99,8 @@
     border-radius: 30px;
 
 }
-.parimary_btn a{
+
+.parimary_btn a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
@@ -108,106 +108,353 @@
     font-family: "Space Grotesk", sans-serif;
 }
 
-.banne_img{
-    padding-top: 100px; 
-}
-.banne_img img{
-    height: 400px;
-}
-.banner_bage{ 
-    position: relative; 
+.banne_img {
     padding-top: 100px;
 }
-.bage_one{
-    position: absolute;
-   padding: 40px 25px;
-   background: #ff9b00;
-   background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
-   background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%); 
-  font-size: 30px;
-  font-weight: 700;   
-  transform: rotate(-3deg);   
-  font-family: "Space Grotesk", sans-serif; 
-  margin-left: 8px;
+
+.banne_img img {
+    height: 400px;
 }
-.bage_two{
-    position: absolute;
-   padding: 40px 25px;
-   background: #ff9b00;
-   background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
-   background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%); 
-  font-size: 30px;
-  font-weight: 700;  
-  margin-left: 8px;
-  transform: rotate(3deg);  
-  font-family: "Space Grotesk", sans-serif; 
+
+.banner_bage {
+    position: relative;
+    padding-top: 100px;
 }
+
+.bage_one {
+    position: absolute;
+    padding: 40px 25px;
+    background: #ff9b00;
+    background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    font-size: 30px;
+    font-weight: 700;
+    transform: rotate(-3deg);
+    font-family: "Space Grotesk", sans-serif;
+    margin-left: 8px;
+}
+
+.bage_two {
+    position: absolute;
+    padding: 40px 25px;
+    background: #ff9b00;
+    background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 8px;
+    transform: rotate(3deg);
+    font-family: "Space Grotesk", sans-serif;
+}
+
 /* banner part end  */
 /* wab link part start  */
-#wab_link{
+#wab_link {
     margin-top: 110px;
 }
-.wablink{
+
+.wablink {
     gap: 20px;
 }
-.wablink a i{
-   font-size: 45px; 
-   padding-top: 5px;
+
+.wablink a i {
+    font-size: 45px;
+    padding-top: 5px;
 }
-.wablink p{
+
+.wablink p {
     font-size: 20px;
     font-weight: 600;
-    color: #18181B; 
+    color: #18181B;
     padding-right: 285px;
-    font-family: "Space Grotesk", sans-serif; 
-    
+    font-family: "Space Grotesk", sans-serif;
+
 }
-.wablinks{
+
+.wablinks {
     gap: 20px;
 }
-.wablinks a i{
-   font-size: 45px; 
-   padding-top: 5px; 
-   border-radius: 50%;
-   padding: 5px; 
+
+.wablinks a i {
+    font-size: 45px;
+    padding-top: 5px;
+    border-radius: 50%;
+    padding: 5px;
 }
-.wablinks p{
+
+.wablinks p {
     font-size: 20px;
     font-weight: 600;
-    color: #18181B;  
-    font-family: "Space Grotesk", sans-serif; 
-    
+    color: #18181B;
+    font-family: "Space Grotesk", sans-serif;
+
 }
-.saves{
+
+.saves {
     gap: 20px;
     padding-left: 110px;
     padding-top: 40px;
 }
-.saves a i{
-   font-size: 45px; 
-   padding-top: 5px;
+
+.saves a i {
+    font-size: 45px;
+    padding-top: 5px;
 }
-.saves p{
+
+.saves p {
     font-size: 20px;
     font-weight: 600;
-    color: #18181B;   
-    font-family: "Space Grotesk", sans-serif; 
-    
+    color: #18181B;
+    font-family: "Space Grotesk", sans-serif;
+
 }
+
 /* wab link part end  */
 /* revew part start  */
-#revewPart{
+#revewPart {
     margin-top: 140px;
+    margin-bottom: 40px;
 }
+
+.img_text {
+    padding-left: 100px;
+}
+
+.img_text h3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+    padding-bottom: 25px;
+    padding-right: 100px;
+}
+
+.img_text p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+    padding-right: 150px;
+}
+
+.imgBages {
+    gap: 10px;
+    margin-top: 35px;  
+}
+
+.imgBages p {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+
+
+
+.img_texts {
+    padding-left: 100px;
+    margin-top: 30px;
+}
+
+.img_texts h3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+    padding-bottom: 25px;
+    padding-right: 100px;
+}
+
+.img_texts p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+    padding-right: 150px;
+}
+.imgrevewpic img{
+    width: 400px;
+} 
+
 /* revew part end  */
-/* banner part start  */
-/* banner part end  */
-/* banner part start  */
-/* banner part end  */
-/* banner part start  */
-/* banner part end  */
-/* banner part start  */
-/* banner part end  */
+/* shopping part start  */
+#shopingPart{
+    margin-top: 60px;
+    background: rgba(197, 197, 185, 0);
+background: -webkit-linear-gradient(71deg, rgba(197, 197, 185, 0) 0%, #ffd289 100%);
+background: linear-gradient(71deg, rgba(197, 197, 185, 0) 0%, #ffd289 100%);
+}
+
+.shoppingImg img{
+    margin-top: 60px;
+    width: 450px;
+    padding-bottom: 30px;
+}
+.shoppingCardText h4{
+    padding-top: 100px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+    padding-bottom: 25px;
+    padding-right: 100px;
+}
+.shoppingCardText p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+    padding-right: 150px; 
+}
+/* shopping part end  */
+/* varcity room part start  */
+#varcityRoomPart{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.varcityRoomText h4{ 
+    font-size: 45px;
+    font-weight: 700;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+    padding-bottom: 25px; 
+    padding: 0px 196px;
+}
+.varcityRoomText p{ 
+    font-size: 16px;
+    font-weight: 500;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif; 
+    padding: 0px 383px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+} 
+.shoppingimgOne img{
+    width: 400px;
+}
+ 
+.shoppingimgText h4{
+    font-size: 40px;
+    font-weight: 700;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+    padding-right: 100px;
+    margin-top: 20px;
+}
+.shoppingimgText p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif; 
+    padding-right: 100px; 
+}
+ .parimary_btns{
+    text-align: center;
+    margin-top: 80px;
+ }
+/* varcity room part end  */
+/* bagges part start  */
+.banggesHedingText h4{
+    font-size: 40px;
+    font-weight: 700;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif;
+}
+.banggesHedingText h4{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.bageItem p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif; 
+    margin-top: 15px;
+} 
+ 
+.bageItem span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #060919;
+    font-family: "Space Grotesk", sans-serif; 
+    padding-left: 380px;
+}
+hr{ 
+    width: 610px;  
+    border-bottom: 2px solid #ffa10b;
+    
+} 
+/* bagges part end  */
+/* footer part start  */
+    #footer{
+        margin-top: 60px;
+        background: #060919;
+    }
+    .footerHadingText{
+       padding-top: 55px;
+     
+    }
+    .footerHadingText h4{
+        font-size: 30px;
+        font-weight: 700;
+        color: #ffffff;
+        font-family: "Space Grotesk", sans-serif;  
+    }
+    .footerHadingText p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: "Space Grotesk", sans-serif;  
+        padding-right: 934px;
+        margin-top: 18px;
+    }
+    .brida{
+        gap: 20px;
+    }
+    .socal_icone a i{ 
+     font-size: 25px; 
+     background: #FF9B00;
+     color: white;
+     border-radius: 50%;
+     padding: 5px;
+     margin-top: 25px;
+
+    }
+    .linkitem {
+        margin-left: 40px;
+        
+    }
+    .footer_link{
+        margin-top: 80px;
+    }
+    .footer_link h5{
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+        font-family: "Space Grotesk", sans-serif;  
+    }
+    .footer_link p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #FFFFFF;
+        font-family: "Space Grotesk", sans-serif;  
+    } 
+    .boder{
+        border-top: 2px solid rebeccapurple; 
+    } 
+    .boder p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #FFFFFF;
+        font-family: "Space Grotesk", sans-serif;  
+        padding-bottom: 55px;
+        margin-top: 30px;
+        text-align: center;
+    }
+/* footer part end  */
 /* banner part start  */
 /* banner part end  */
 /* banner part start  */
