@@ -138,15 +138,9 @@
   hr {
     width: 490px; 
   }
+ 
 
-
-
-
-
-
-
-
-  }
+}
    /* wab part end  */
    /* banner part start  */
    
@@ -184,22 +178,188 @@
    /* banner part start  */
    
    /* banner part end  */
+  
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /* Header Part Start  */
+#navbar{
+    display: none;
+}
+.bannerTextPart h2 {
+    font-size: 29px; 
+    padding-right: 0px; 
+  }
+  .bannerTextPart p {
+    padding-top: 11px;
+    font-size: 14px; 
+    padding-right: 0px; 
+  }
+  .parimary_btn {
+    margin-top: 9px;
+    font-size: 0px; 
+    padding: 12px 36px; 
+  } 
+  .banne_img img {
+    height: 244px;
+    padding-left: 81px;
+  }
+  .banne_img {
+    padding-top: 35px;
+  }
+  .bage_two{
+    display: none;
+  }
+  .bage_one { 
+    padding: 40px 52px; 
+    font-size: 7px; 
+    transform: rotate(0deg); 
+    bottom: -11px;
+  }
 
+  .wablink a i {
+    font-size: 36px; 
 
+  }
+  .wablink p {
+    font-size: 16px; 
+    padding-right: 0px; 
+  }
+  .wablinks a i {
+    font-size: 32px; 
+  }
 
+  .wablinks p {
+    font-size: 16px; 
+  }
+  .saves a i {
+    font-size: 30px; 
+  }
+  .saves p {
+    font-size: 15px; 
+  } 
+  .saves {
+    gap: 20px;
+    padding-left: 113px;
+    padding-top: 0px;
+  }
+  #revewPart {
+    margin-top: 22px;
+    margin-bottom: 0px;
+  }
+  #wab_link {
+    margin-top: 41px;
+  }
 
+  .img_text {
+    padding-left: 27px;
+  }
 
+  .img_text h3 {
+    font-size: 24px; 
+    padding-bottom: 6px;
+    padding-right: 40px;
+    padding-top: 20px;
+  }
 
+  .img_text p {
+    font-size: 15px;
+    padding-right: 1px;
+  }
+  .imgBages {
+    gap: 10px;
+    margin-top: -5px;
+  }
 
+  #revewPart {
+    margin-top: 0px; 
+  }
+  .img_texts {
+    padding-left: 43px; 
+  }
 
+  .img_texts h3 {
+    font-size: 24px; 
+    padding-bottom: 0px;
+    padding-right: 0;
+  }
+  .img_texts p {
+    font-size: 14px; 
+    padding-right: 0;
+  }
 
+  .imgrevewpic img {
+    width: 293px;
+    padding-left: 88px;
+  }
+  .shoppingImg img { 
+    width: 376px;
+    padding-bottom: 30px;
+    padding-left: 41px;
+  }
+  .shoppingCardText h4 {
+    padding-top: 0px;
+    font-size: 27px; 
+    padding-bottom: 14px;
+    padding-right: 0px;
+    padding-left: 27px;
+  } 
+  .shoppingCardText p {
+    font-size: 16px; 
+    padding-right: 0;
+    padding-left: 27px;
+  }
 
+  .parimary_btn {
+    margin-top: -5px;
+    font-size: 0px;
+    padding: 11px 36px;
+    margin-bottom: 10px;
+  }
+  .flower {
+    width: 330px; 
+  }
 
+  .flower p {
+    font-size: 13px;
+    margin-top: 12px; 
+  }
 
+    .folwerTwo {
+        width: 350px; 
+        margin-top: 29px;
+        margin-left: 27px;
+      }
 
+      .folwerTwo p {
+        font-size: 13px;  
+        padding-top: 10px;
+      } 
+      .followersBage {
+        margin-top: -17px;
+      }
 
+      .bagess {
+        padding: 11px 3px; 
+        font-size: 8px; 
+      }
 
-
+      .varcityRoomText h4 {
+        font-size: 26px;  
+        padding: 0px 0;
+      }
+      .varcityRoomText p {
+        font-size: 14px; 
+        padding: 0px 0; 
+        margin-bottom: 20px;
+      } 
+      .shoppingimgOne img {
+        width: 307px;
+      }
+      .follwerText h4 {
+        font-size: 25px; 
+        padding-right: 0;
+        padding-left: 32px;
+      }
 
 
 
@@ -230,6 +390,7 @@
 
 
 
+}
 
 
 
@@ -237,10 +398,5 @@
 
 
 
-
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (min-width: 320px) and (max-width: 575.98px) {
-    /* Header Part Start  */
 
 }

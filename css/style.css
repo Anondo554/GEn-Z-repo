@@ -59,7 +59,7 @@
 /* navvar part end  */
 /* banner part start  */
 #bannerPart {
-    background: #ded031;
+    background: #06091A;
     height: 765px;
 }
 
@@ -79,11 +79,11 @@
 .bannerTextPart h6 {
     border-bottom: 8px solid #FFC947;
     width: 100px;
-   padding-top: 20px;
+   padding-top: 30px;
 }
 
 .bannerTextPart p {
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
@@ -137,18 +137,17 @@
     font-weight: 700;
     transform: rotate(-3deg);
     font-family: "Space Grotesk", sans-serif; 
-    
 }
 
 .bage_two {
     position: absolute;
-    padding: 40px px;
+    padding: 40px 30px;
     background: #ff9b00;
     background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
     background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
     font-size: 29px;
     font-weight: 700;
-    margin-left: 8px;
+    margin-left: 10px;
     transform: rotate(3deg);
     font-family: "Space Grotesk", sans-serif;
 }
