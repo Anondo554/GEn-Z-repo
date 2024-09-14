@@ -1,0 +1,244 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* navbar part start  */
+   #navbar{
+    display: none;
+   }
+   /* navbar part end  */
+   /* banner part start  */
+   .bannerTextPart h2 {
+    font-size: 39px;
+}
+
+.bannerTextPart p {
+    padding-top: 0px;
+}
+
+.parimary_btn {
+    margin-top: 7px;
+    font-size: 4px;
+    padding: 11px 23px;
+}
+.banne_img img {
+    height: 251px;
+    padding-left: 183px;
+  }
+  .bage_one { 
+    font-size: 13px; 
+    bottom: 10px;
+    padding: 40px 16px;
+  }
+  .bage_two { 
+    font-size: 12px; 
+    bottom: 15px;
+    padding: 40px 16px;
+  }
+  
+   /* banner part end  */
+   /* wab part start  */
+   
+  .wablink p { 
+    padding-right: 0; 
+  }
+  .saves { 
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .h-100 {
+    height: 97% !important;
+    padding-left: 116px;
+  }
+  #revewPart {
+    margin-top: 22px; 
+  }
+  .img_text h3 {
+    font-size: 31px; 
+    padding-right: 0px;
+  }
+  .img_text {
+    padding-left: 23px;
+  }
+  .img_text p {
+    font-size: 16px; 
+    padding-right: 0;
+  }
+  .img_texts {
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  .img_texts h3 {
+    font-size: 40px; 
+    padding-bottom: 11px;
+    padding-right: 21px;
+  }
+  .img_texts p {
+    font-size: 18px; 
+    padding-right: 0px;
+  }
+  .shoppingImg img { 
+    width: 400px; 
+    padding-left: 94px;
+  }
+  .shoppingCardText h4 {
+    padding-top: 24px;
+    font-size: 41px; 
+    padding-bottom: 15px;
+    padding-right: 0px;
+  }
+  .shoppingCardText p {
+    font-size: 18px;
+    font-weight: 500; 
+    padding-right: 0px;
+  }
+  * { 
+    padding-bottom: 2px;
+  }
+  .follwerText h4 { 
+    padding-right: 21px;
+    padding-top: 22px;
+  }
+  .follwerText p {
+    font-size: 19px; 
+    padding-right: 0px; 
+    padding-bottom: 0px;
+  }
+  .varcityRoomText h4 { 
+    padding:0 ;
+  }
+  .shoppingimgText h4 { 
+    padding-right: 0;
+  }
+  .shoppingimgText p { 
+    padding-right: 0;
+  }
+  .varcityRoomText p { 
+    padding: 0px 0; 
+  }
+  .parimary_btns { 
+    margin-top: 0;
+  }
+  .banggesHedingText h4 {
+    padding-top: 41px;
+    padding-bottom: 38px;
+  }
+  .footerHadingText p {
+    font-size: 25px; 
+    padding-right: 0;
+    margin-top: 18px;
+  }
+
+
+
+
+
+
+
+
+
+  }
+   /* wab part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+   /* banner part start  */
+   
+   /* banner part end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /* Header Part Start  */
+
+}
