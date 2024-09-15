@@ -44,53 +44,40 @@
     <!-- css end -->
   </head>
   <body>
-    <!-- nav part start  -->
-    <section id="navbar">
-      <nav class="navbar navbar-expand-lg mt-1">
-        <div class="container navItem">
-          <img src="images/logo.png" alt="logo.png" />
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Our Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Articles</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contact Us</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Our Work</a>
-              </li>
-            </ul>
-            <div class="nav_btn">
-              <a href="#">Get Started</a>
-            </div>
-          </div>
+    <!-- nav part start  --> 
+    <!-- Nav Part Start -->
+   <section id="navbar_container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navItem" href="#"><img src="images/logo.png" alt="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item Our Services">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Our Services
+                  </a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Our Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </section>
+        <div class="nav_btn">Get Started</div>
+      </div>
+    </nav>
+   </section> 
     <!-- nav part end  -->
     <!-- banner part start  -->
     <section id="bannerPart">
@@ -108,8 +95,9 @@
             </div>
           </div>
           <div class="col-lg-5">
-            <div class="banne_img">
-              <img src="images/banner.png" alt="" />
+            <div class="banne_img position-relative">
+              <img src="images/banner.png" alt="banner.png"/>
+              <div class="position-absolute banne_imgOne"><img src="images/image banner.png" alt="image banner.png"></div>
             </div>
           </div>
         </div>
